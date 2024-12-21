@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Restaurante Sabores do Mar</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="https://unpkg.com/swiper/swiper-bundle.min.css" />
+</head>
+<body>
+    <!-- Cabeçalho -->
+    <header class="header">
+        <div class="logo">Caranguejo do Assis</div>
+        <nav class="nav">
+            <ul>
+                <li><a href="#home">Início</a></li>
+                <li><a href="#menu">Cardápio</a></li>
+                <li><a href="#about">Sobre</a></li>
+                <li><a href="#reservations">Reservas</a></li>
+                <li><a href="#contact">Contato</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <!-- Banner Principal -->
+    <section id="home" class="banner">
+        <h1>Bem-vindo ao Caranguejo do Assis</h1>
+        <p>Sabores incríveis, direto do mar para sua mesa.</p>
+        <a href="#menu" class="btn">Confira o Cardápio</a>
+    </section>
+
+    <!-- Destaques -->
+    <section id="highlights" class="highlights">
+        <h2>Pratos em Destaque</h2>
+        <div class="cards">
+            <div class="card">
+                <img src="prato1.jpg" alt="Prato 1">
+                <h3>Camarão Grelhado</h3>
+                <p>Suculentos camarões servidos com molho especial.</p>
+            </div>
+            <div class="card">
+                <img src="prato2.jpg" alt="Prato 2">
+                <h3>Moqueca de Peixe</h3>
+                <p>Uma deliciosa combinação de sabores tropicais.</p>
+            </div>
+            <div class="card">
+                <img src="prato3.jpg" alt="Prato 3">
+                <h3>Moqueca do Assis</h3>
+                <p>Frescor e leveza em cada mordida.</p>
+            </div>
+        </div>
+    </section>
+
+    <!-- Sobre o Restaurante -->
+    <section id="about" class="about">
+        <h2>Sobre Nós</h2>
+        <p>Há 22 anos no mercado, possuímos um ambiente descontraído e familiar e estamos sempre dedicados a oferecer um cardápio variado que vão dos mais tradicionais pratos à base de caranguejo, até opções mais sofisticadas de carnes, peixes e saladas. Tudo é feito para que, além do sabor do mar capixaba, você sinta o prazer de viver uma experiência incrível que só o Espírito Santo proporciona para você.</p>
+        <img src="restaurante.jpg" alt="Imagem do restaurante">
+    </section>
+
+    <!-- Cardápio -->
+    <section id="menu" class="menu">
+        <h2>Nosso Cardápio</h2>
+        <div class="swiper-container">
+            <div class="swiper-wrapper">
+                <!-- Slides do Cardápio -->
+                <div class="swiper-slide">
+                    <img src="./img/pg1.png" alt="Capa do Cardápio">
+                </div>
+                <div class="swiper-slide">
+                    <img src="./img/pg2.png" alt="Página 1 do Cardápio">
+                </div>
+                <div class="swiper-slide">
+                    <img src="./img/pg3.png" alt="Página 2 do Cardápio">
+                </div>
+                <div class="swiper-slide">
+                    <img src="./img/pg4.png" alt="Página 3 do Cardápio">
+                </div>
+            </div>
+            <!-- Botões de Navegação -->
+            <div class="swiper-button-next"></div>
+            <div class="swiper-button-prev"></div>
+            <!-- Paginação -->
+            <div class="swiper-pagination"></div>
+        </div>
+    </section>
+
+    <!-- Reservas -->
+    <section id="reservations" class="reservations">
+        <h2>Faça sua Reserva</h2>
+        <form>
+            <input type="text" placeholder="Nome" required>
+            <input type="date" required>
+            <input type="number" placeholder="Número de pessoas" required>
+            <input type="tel" placeholder="Telefone" required>
+            <button type="submit">Reservar Agora</button>
+        </form>
+    </section>
+
+    <!-- Rodapé -->
+    <footer class="footer">
+        <p>&copy; Caranguejo do Assis. Todos os direitos reservados.</p>
+        <p>Endereço: Av. da Praia, 290 – Praia de Itaparica, Vila Velha – ES, 29102-085</p>
+        <p>Redes Sociais: <a href="#">Instagram</a> | <a href="#">Facebook</a></p>
+    </footer>
+
+    <script src="https://unpkg.com/swiper/swiper-bundle.min.js"></script>
+    <script src="script.js"></script>
+</body>
+</html>
+
+</html>
